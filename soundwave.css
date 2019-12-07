@@ -1,0 +1,146 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    margin:0px auto;
+}
+
+#maincontainer{
+    width:800px;
+   box-shadow:4px 4px 20px 8px #c4c4c4;
+    margin:50px auto;
+    height:513px;
+    
+}
+
+#left{
+    float:left;
+    width:49.5%;
+    background:linear-gradient(180deg,#D3A7DB,#A1ABDE);
+    height:100%;
+}
+
+#sound{
+    text-align:center;
+    background:-webkit-linear-gradient(left,#443031,#C63843);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    font-size:55px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+}
+
+#ccircle{
+    height:150px;
+    width:150;
+    margin:100px auto 15px auto;
+    background:linear-gradient(180deg, #181E50,#CF3C74);
+    border-radius:50%;
+    border:10px; 
+    padding:8px;
+}
+
+#circl{
+    height:150px;
+    border-radius:50%;
+    background:linear-gradient(to bottom,#C5A8DC,#B5AADD); 
+    display:flex;
+    justify-content: space-around;
+}
+
+.wave{
+    width:8px;
+    margin-top:57px;
+    border-radius:10px;
+    background:linear-gradient(to bottom,#916A9F,#BF75AA);
+}
+
+#d,#e{
+    height:50px;
+}
+
+#c,#f{
+    height:35px;
+    margin-top:64px;
+}
+
+#b,#g{
+    height:22px;
+    margin-top:70px;
+}
+
+#a,#h{
+    height:25px;
+    margin-top:68px;
+}
+#right{
+    float:right;
+    width:50%;
+    align-items: center;
+}
+
+#sign{
+    font-family: 'Baskervville', serif;
+    text-align:center;
+    margin-top:50px;
+    color:#4B49BA;
+    font-weight:400;
+    font-size:37px;
+}
+
+form{
+    margin:20px auto;
+    width:300px;
+    
+}
+
+input{
+    margin:15px;
+    width:300px;
+    height:40px;
+    border-radius:10px 0px 10px 0px;
+    border:none;
+    background:#EDF0F5;
+}
+
+::-webkit-input-placeholder{
+    padding:20px;
+    color:#7878CA;
+    font-size:18px;
+    font-family: 'Gupter', serif;
+    font-weight:540;
+}
+
+button{
+    margin:10px 0px 0px 85px;
+    width:140px;
+    height:35px;
+    border-radius:13px;
+    border:none;
+    background:linear-gradient(270deg,#4153F3,#928DB6);
+    color:white;
+    font-size:12px;
+}
+
+button:hover{
+    background:linear-gradient(90deg,#4153F3,#928DB6);
+}
+
+#noacc{
+    text-align:center;
+    color:#7878CA;
+    font-weight:650;
+    margin:25px 0px;
+    font-family:arial;
+}
+
+a{
+    text-decoration:none;
+    color:#7878CA;
+}
+
+a:hover{
+    color:#4545d4;
+    text-decoration:none;
+}
